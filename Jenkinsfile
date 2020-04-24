@@ -3,7 +3,7 @@ pipeline {
    stages {
       stage('Testes de API') {
          steps {
-            bat "echo MAURICIO"
+            bat "maven test"
          }
       }
    }
