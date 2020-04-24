@@ -7,7 +7,7 @@ pipeline {
    stages {
       stage('Testes de API') {
          steps {
-            bat "maven test"
+            bat "mvn test"
          }
       }
    }
