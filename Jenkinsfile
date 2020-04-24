@@ -3,7 +3,7 @@ pipeline {
    stages {
       stage('Testes de API') {
          steps {
-            bat "mvn install"
+            sn "mvn install"
          }
       }
    }
